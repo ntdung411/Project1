@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452967304082",
+    "project_id": "project1-71547",
+    "storage_bucket": "project1-71547.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452967304082:android:c57edefe22bbfd4d724f4b",
+        "android_client_info": {
+          "package_name": "vn.edu.hust.soict.sv.dungnt.project1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8bNrax_YcTclbioGp3--9fy5ILfdA7dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
