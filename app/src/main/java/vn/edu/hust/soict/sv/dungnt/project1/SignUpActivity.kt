@@ -5,15 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.view.View
-import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import vn.edu.hust.soict.sv.dungnt.project1.databinding.ActivitySignUpBinding
 import vn.edu.hust.soict.sv.dungnt.project1.model.UserModel
 import vn.edu.hust.soict.sv.dungnt.project1.util.UiUtil
-import java.util.regex.Pattern
 
 class SignUpActivity : AppCompatActivity() {
 
