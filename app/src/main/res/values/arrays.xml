@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resolution_options">
+        <item>FRAMESIZE_96X96 (96x96)</item>
+        <item>FRAMESIZE_QQVGA (160x120)</item>
+        <item>FRAMESIZE_QCIF (176x144)</item>
+        <item>FRAMESIZE_HQVGA (240x176)</item>
+        <item>FRAMESIZE_240X240 (240x240)</item>
+        <item>FRAMESIZE_QVGA (320x240)</item>
+        <item>FRAMESIZE_CIF (420x296)</item>
+        <item>FRAMESIZE_HVGA (480x320)</item>
+        <item>FRAMESIZE_VGA (640x480)</item>
+        <item>FRAMESIZE_SVGA (800x600)</item>
+        <item>FRAMESIZE_XGA (1024x768)</item>
+        <item>FRAMESIZE_HD (1280x720)</item>
+        <item>FRAMESIZE_SXGA (1280x1024)</item>
+        <item>FRAMESIZE_UXGA (1600x1200)</item>
+        <item>FRAMESIZE_FHD (1920x1080)</item>
+        <item>FRAMESIZE_P_HD (720x1280)</item>
+        <item>FRAMESIZE_P_3MP (864x1536)</item>
+        <item>FRAMESIZE_QXGA (2048x1536)</item>
+        <item>FRAMESIZE_QHD (2560x1440)</item>
+        <item>FRAMESIZE_WQXGA (2560x1600)</item>
+        <item>FRAMESIZE_P_FHD (1080x1920)</item>
+        <item>FRAMESIZE_QSXGA (2560x1920)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="vn.edu.hust.soict.sv.dungnt.project1.ui.imageview.ImageViewViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device Name:" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:text="@{viewModel.deviceName}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delay Time (seconds):" />
+
+        <EditText
+            android:id="@+id/editTextDelayTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delay Time"
+            android:inputType="number"
+            android:text="@{viewModel.delayTime.toString()}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resolution:" />
+
+        <Spinner
+            android:id="@+id/spinnerResolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/resolution_options"
+            android:prompt="@string/select_resolution"
+            android:selectedItemPosition="@{viewModel.resolution}" />
+    </LinearLayout>
+</layout>
