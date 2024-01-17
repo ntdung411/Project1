@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Project 1</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameDevice_prefix">Device Name: %s</string>
+    <string name="idDevice_prefix">Device ID: %s</string>
+    <string name="idFarm_prefix">Farm ID: %s</string>
+    <string name="createdAt_prefix">Created at: %s</string>
+    <string name="select_resolution">Select Resolution</string>
 </resources>

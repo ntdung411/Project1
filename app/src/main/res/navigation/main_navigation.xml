@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/deviceListFragment">
+
+    <fragment
+        android:id="@+id/deviceListFragment"
+        android:name="vn.edu.hust.soict.sv.dungnt.project1.ui.devicelist.DeviceListFragment"
+        android:label="DeviceListFragment">
+        <action
+            android:id="@+id/action_deviceListFragment_to_imageViewFragment"
+            app:destination="@id/imageViewFragment" />
+        <action
+            android:id="@+id/action_deviceListFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageViewFragment"
+        android:name="vn.edu.hust.soict.sv.dungnt.project1.ui.imageview.ImageViewFragment"
+        android:label="ImageViewFragment">
+
+        <action
+            android:id="@+id/action_imageViewFragment_to_imageHistoryFragment"
+            app:destination="@id/imageHistoryFragment" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/imageHistoryFragment"
+        android:name="vn.edu.hust.soict.sv.dungnt.project1.ui.imagehistory.ImageHistoryFragment"
+        android:label="ImageHistoryFragment" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="vn.edu.hust.soict.sv.dungnt.project1.AccountFragment"
+        android:label="AccountFragment" >
+        <action
+            android:id="@+id/action_accountFragment_to_deviceListFragment"
+            app:destination="@id/deviceListFragment" />
+    </fragment>
+</navigation>
